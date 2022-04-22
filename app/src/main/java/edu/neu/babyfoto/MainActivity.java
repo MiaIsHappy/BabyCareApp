@@ -4,7 +4,6 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
-
 import android.annotation.SuppressLint;
 import android.content.ContentUris;
 import android.content.ContentValues;
@@ -40,7 +39,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 import java.io.IOException;
-
+//
 public class MainActivity extends AppCompatActivity implements RecyclerViewAdapter.onRecyclerViewItemClickListener {
 
     private static final int IMAGE_REQUEST_CODE = 0;
