@@ -37,9 +37,8 @@ import java.util.List;
 import java.util.Random;
 import java.io.InputStream;
 import java.io.OutputStream;
-
 import java.io.IOException;
-//
+
 public class MainActivity extends AppCompatActivity implements RecyclerViewAdapter.onRecyclerViewItemClickListener {
 
     private static final int IMAGE_REQUEST_CODE = 0;
